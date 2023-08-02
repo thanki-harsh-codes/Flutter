@@ -1,0 +1,78 @@
+Mobile Application
+
+Android :
+         - Java 
+         - Kotlin
+
+Ios : 
+     - Objective C
+     - Swift
+
+
+Flutter : (Google)
+        
+         - dart Programming
+
+// void main()
+
+// Void : Data Type - Which Is Represent That Function Doesn't Return Any Value
+
+// Main() : Main Is a Main Entry Function
+
+// { } : Block Begining And Ending Display
+ 
+
+void main() {
+  for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }
+}
+
+         
+React Native : (Facebook)
+          
+          - JavaScript
+
+
+Dart Introduction 
+
+-> Dart Is a General - Purpose , High Level Modern Programming Language Which Is Originally Developed By Google 
+
+-> It Is The New Programming Language Which Is Emerged In 2011 , But Its Stable Version Was Released In June 2017.
+
+-> It Is Compiled Language And Supposed Two Types Of Compilation Techniques.
+
+-> Dart Programming : Mobile Apps , Web App , Server Side Script 
+
+-> Dart Is Pure Object Oriented Programming Language 
+
+-> AOT(Ahead Of Time) - It Converts The Dart Code In The Optimized JavaScript code With The Help Of The DartJs. It Compilers And Runs On All Modern Web - Browser . It 
+Compiles The Code At Build Time.
+
+-> JOT(Just-In-Time) - It Converts The Byte Code In The Machine Code (Native Code), But Only Code That Is Necessary.
+
+# Comments :
+
+1 . Single Line Comments :
+// This Is  Single Line Comments
+
+2 . Multi Line Comments :
+/* This Is Multi Line Comments*/
+
+3 . Documention Comments :
+/// This Is 
+/// Documention comments 
+
+
+# Dart Programming :
+
+Void Main() // Main Executable Function 
+{
+  Print ("Hello");
+  Print ("Welcome To Flutter");
+
+
+  /*  Print : Print Is An InBuilt Function Which Is Represent By Round Braces And Which Is Represent Appropriate Message On Console Screen */
+
+  
+}

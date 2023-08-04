@@ -9,4 +9,5 @@ void main() {
     print(item);
     count++;
   }
+  print("count = $count");
 }

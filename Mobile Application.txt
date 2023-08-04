@@ -76,3 +76,17 @@ Void Main() // Main Executable Function
 
   
 }
+
+# Variable : A Name Which Can Store a Value Using Of Variable We Can Put Number Of Values InIt.
+
+-> Variable Which Is Contain Any Type Of Values 
+
+-> In Flutter Dart First Of All We Need To Declare Any Variable Then After We Need To Use Variable Define .
+
+-> Void Main () {
+  int num1 , num2 ;
+  num1 = 10;
+  num2 = 20;
+  print ("Addition = {num1 + num2 }");
+  print ("Multiplication = { num1 * num2 }")
+}

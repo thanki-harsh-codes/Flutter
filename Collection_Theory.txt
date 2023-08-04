@@ -1,0 +1,9 @@
+Collection Are Group Of Objects Which Is Represent Particular Elements
+
+There Are Lots Of Collection In Dart Programming
+
+List : Which Is Represent Data In Order And Group Of Objects
+
+Set : Which Is Contain Unique Values Only
+
+Map<k,v> : Map Is Work Like Dictionary Which Contains Key And Values In Pairs

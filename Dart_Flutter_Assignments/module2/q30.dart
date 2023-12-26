@@ -1,0 +1,2 @@
+// Can we pass an object of a subclass to a method expecting an object of the superclass?
+// Yes, you can pass an object of a subclass to a method expecting an object of the superclass. This is possible due to the principle of polymorphism in object-oriented programming.

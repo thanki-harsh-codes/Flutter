@@ -1,0 +1,2 @@
+//  Can we override static method in Dart?
+// No, static methods cannot be overridden in Dart. They belong to the class itself, not to instances of the class, so they are not inherited by subclasses. When a subclass declares a static method with the same name as a static method in its superclass, it does not override it; instead, it hides it.

@@ -1,0 +1,2 @@
+//Can we overload static method in Dart?
+// Dart does not support method overloading in the traditional sense, whether the methods are static or instance methods. If you declare multiple methods with the same name in a class, the last one declared will override any previous ones.

@@ -22,37 +22,43 @@
 // Specialization: Create specialized child classes that extend and refine the behavior of the parent class.
 // Code organization: Promote modularity and organization by grouping related functionalities into classes.
 
-// Superclass
-class Animal {
-  String name;
+class Vehicle {
+  String brand;
 
-  Animal(this.name);
+  Vehicle(this.brand);
 
-  void eat() {
-    print('$name is eating.');
+  void start() {
+    print('$brand is starting.');
+  }
+
+  void stop() {
+    print('$brand is stopping.');
   }
 }
 
-// Subclass
-class Dog extends Animal {
-  String breed;
 
-  Dog(String name, this.breed) : super(name);
+class Car extends Vehicle {
+    int numberOfDoors;
 
-  void bark() {
-    print('$name is barking.');
-  }
+    Car(String brand, this.numberOfDoors) : super(brand);
+
+    void honk() {
+      print('$brand is honking.');
+    }
 }
 
 void main() {
-  // Creating an instance of the subclass
-  var myDog = Dog('Buddy', 'Golden Retriever');
+  // creating an instance of the subclass 
+  var myCar = Car('Toyota', 4);
 
-  // Accessing properties and methods from the superclass
-  print('Name: ${myDog.name}');
-  myDog.eat();
+  // Accessing Properties and Methods From The Superclass 
+  print('Brand: ${myCar.brand}');
+  myCar.start();
 
-  // Accessing properties and methods from the subclass
-  print('Breed: ${myDog.breed}');
-  myDog.bark();
+  // Accessing Properties And Methods from The Superclass
+  print('Number of Doors: ${myCar.numberOfDoors}');
+  myCar.honk();
+
+  //Using a Method From The Superclass
+  myCar.stop();
 }

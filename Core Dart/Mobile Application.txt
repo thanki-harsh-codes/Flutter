@@ -1,12 +1,12 @@
 Mobile Application
 
 Android :
-         - Java 
-         - Kotlin
+- Java 
+- Kotlin
 
 Ios : 
-     - Objective C
-     - Swift
+- Objective C
+- Swift
 
 
 Flutter : (Google)
@@ -20,7 +20,7 @@ Flutter : (Google)
 // Main() : Main Is a Main Entry Function
 
 // { } : Block Begining And Ending Display
- 
+
 
 void main() {
   for (int i = 0; i < 5; i++) {

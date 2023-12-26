@@ -1,5 +1,3 @@
-
-
 void main() {
   var marks = 101 ;
   if(marks>=95){

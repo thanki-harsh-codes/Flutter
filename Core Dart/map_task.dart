@@ -43,7 +43,6 @@ void main()
             prodcut[name] = specific;
         
           }  
-         
             print("Do you want to add press y for yes and press n for no : ");
             var mainCho = stdin.readLineSync()!;
             if (mainCho == 'y' || mainCho == 'Y') {
@@ -56,7 +55,7 @@ void main()
 
         break;
       case 2:
-       bool status = true;
+      bool status = true;
         while(status)
         {
           print("Our product is : $prodcut");

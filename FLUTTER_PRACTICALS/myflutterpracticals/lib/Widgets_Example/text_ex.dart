@@ -7,9 +7,9 @@ class MyText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(  
-        title: Text("Text Example"),
+        title: const Text("Text Example"),
       ),
-      body: Text("Welcome To Flutter",
+      body: const Text("Welcome To Flutter",
       style: TextStyle(fontSize: 36, color: Colors.blue),
       ),
     );

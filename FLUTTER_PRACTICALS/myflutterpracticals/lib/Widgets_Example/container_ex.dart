@@ -7,20 +7,20 @@ class MyContainer extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text("Container Example"),
+        title: const Text("Container Example"),
       ),
       body: Container(
         height: 300,
         width: double.maxFinite,
-        padding: EdgeInsets.only(left: 20),
+        padding: const EdgeInsets.only(left: 20),
         decoration: BoxDecoration(
               color: Colors.blue,
               border: Border.all(),
-              borderRadius: BorderRadius.only(
+              borderRadius: const BorderRadius.only(
                 bottomRight: Radius.circular(20),
                 topLeft: Radius.circular(20),)),
-      margin: EdgeInsets.only(left: 30  , top: 30),
-        child: Text("Container"),
+      margin: const EdgeInsets.only(left: 30  , top: 30),
+        child: const Text("Container"),
       ),
     );
   }

@@ -7,7 +7,7 @@ class MycolumnExample extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text("Column Example"),
+        title: const Text("Column Example"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -24,9 +24,10 @@ class MycolumnExample extends StatelessWidget {
             color: Colors.teal,
           ),
           ElevatedButton(onPressed: (){
+            // ignore: avoid_print
             print("Button Cicked");
           }, 
-          child: Text("Click Here")),
+          child: const Text("Click Here")),
       ],
       ),
     );

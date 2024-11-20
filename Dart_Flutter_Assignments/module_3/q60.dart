@@ -1,6 +1,11 @@
+import 'dart:html';
+import 'dart:js';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myflutterapplcation/AssienmentModula3/reastuarent2.dart';
+
+import 'q60_2.dart';
 
 class MyRestaurant extends StatefulWidget {
   const MyRestaurant({super.key});
@@ -176,6 +181,7 @@ class _MyRestaurantState extends State<MyRestaurant> {
   }
 
   listTileDemo({tex, imageCl}) {
+    var Image;
     return Container(
       padding: EdgeInsets.only(
           left: MediaQuery.of(context).size.width * 0.02,
@@ -184,7 +190,7 @@ class _MyRestaurantState extends State<MyRestaurant> {
         child: ListTile(
           onTap: () {
             setState(() {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => MyResturent2(),));
+              Navigator.hash(context, MaterialPageRoute(builder: (context) => MyResturent2(),));
             });
           },
           leading: Image.asset(imageCl),
@@ -196,9 +202,29 @@ class _MyRestaurantState extends State<MyRestaurant> {
             "$tex",
             style: TextStyle(fontSize: 20),
           ),
-          subtitle: Text("12"),
+          subtitle: Text("12", style: null),
         ),
       ),
     );
   }
+  
+  TextStyle({required int fontSize}) {}
+  
+  Text(String s, {required style}) {}
+}
+
+MaterialPageRoute({required MyResturent2 Function(dynamic context) builder}) {
+}
+
+mixin Icons {
+  static var arrow_right_outlined;
+}
+
+Icon(arrow_right_outlined, {required int size}) {
+}
+
+FloatingActionButton({required Null Function() onPressed, required backgroundColor, required shape, required child}) {
+}
+
+class SingleChildScrollView {
 }

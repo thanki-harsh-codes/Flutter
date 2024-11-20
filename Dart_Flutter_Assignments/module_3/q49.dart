@@ -1,7 +1,9 @@
+// ignore_for_file: override_on_non_overriding_member
+
 import 'package:flutter/material.dart';
 
 class MyImagesAss extends StatelessWidget {
-  const MyImagesAss({Key? key}) : super(key: key);
+  const MyImagesAss({Set? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -117,4 +119,24 @@ class MyImagesAss extends StatelessWidget {
       ),
     );
   }
+  
+  SingleChildScrollView({required child}) {}
+}
+
+mixin BuildContext {
+}
+
+class Widget {
+}
+
+Scaffold({required AppBar appBar, required body}) {
+}
+
+Column({required List<dynamic> children}) {
+}
+
+class StatelessWidget {
+}
+
+class AppBar {
 }
